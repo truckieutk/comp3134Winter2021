@@ -1,0 +1,21 @@
+1. What is the definition of server port?
+The term is used to mean a TCP or UDP port number that is configured to accept packets. They are the channel through which applications on the client computer can reach the software on the server.
+
+2. What is server port range?
+Registered ports are in the range 1024 to 49151. Dynamic ports are in the range 49152 to 65535.Registered port numbers are non–well-known ports that are used by vendors for their own server applications.
+
+3. How many bits does number above represent?
+A port number is a 16-bit unsigned integer
+
+4. State 10 common server ports
+HTTP - 80
+HTTPS - 443
+FTP - 20, 21
+SSH - 22
+DNS - 53
+DHCP - 67, 68
+POP3 - 110
+SMTP - 25
+TELNET - 23
+IMAP - 143
+RDP - 3389
