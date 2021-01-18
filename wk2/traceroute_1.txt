@@ -1,0 +1,3 @@
+root@CyberSecurityTK:~# traceroute CyberSecurityTK
+traceroute to CyberSecurityTK (127.0.1.1), 30 hops max, 60 byte packets
+ 1  CyberSecurityTK (127.0.1.1)  0.052 ms  0.014 ms  0.011 ms

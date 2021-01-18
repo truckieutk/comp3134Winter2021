@@ -1,0 +1,10 @@
+traceroute to 134.122.44.78 (134.122.44.78), 64 hops max, 72 byte packets
+ 1  mynetwork (192.168.2.1)  8.306 ms  5.923 ms  4.763 ms
+ 2  10.50.44.60 (10.50.44.60)  19.727 ms  4.098 ms  3.735 ms
+ 3  * * *
+ 4  tcore3-toronto12_be36.net.bell.ca (64.230.52.208)  14.540 ms  14.139 ms  7.859 ms
+ 5  * * *
+ 6  bx5-torontoxn_ae0.net.bell.ca (64.230.52.229)  6.401 ms  4.835 ms  4.097 ms
+ 7  toro-b1-link.telia.net (213.248.97.222)  5.530 ms  5.915 ms  3.928 ms
+ 8  toro-b1-link.ip.twelve99.net (62.115.116.181)  6.571 ms  5.775 ms  5.980 ms
+ 9  digitalocean-ic-313814-toro-b1.c.telia.net (62.115.55.30)  3.847 ms  3.638 ms  4.039 ms

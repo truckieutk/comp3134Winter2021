@@ -1,0 +1,32 @@
+1. http://cargurus.com
+
+IP Address: 151.101.2.55
+
+Geolocation: US (United States), CA, California, 94107 San Francisco
+
+2. http://envato.com
+
+IP Address: 104.18.253.82
+
+Geolocation: US (United States), N/A, N/A, N/A N/A 
+
+
+3. http://artic.edu
+
+IP Address: 198.40.31.39
+
+Geolocation: US (United States), IL, Illinois, 60603 Chicago
+
+
+4. http://ksl.com
+
+IP Address: 64.147.131.201
+
+Geolocation: US (United States), UT, Utah, 84128 Salt Lake City
+
+
+5. http://niu.edu
+
+IP Address: 131.156.223.14
+
+Geolocation: US (United States), IL, Illinois, 60115 Dekalb

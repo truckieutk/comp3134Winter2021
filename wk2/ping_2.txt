@@ -1,0 +1,123 @@
+(base) Trucs-MacBook-Air:~ truckieu$ ssh root@134.122.44.78
+The authenticity of host '134.122.44.78 (134.122.44.78)' can't be established.
+ECDSA key fingerprint is SHA256:h+h7nBzx4abwF7iBfAUNuWZi+Mcj+L2IcXUMzv5nadg.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '134.122.44.78' (ECDSA) to the list of known hosts.
+root@134.122.44.78's password: 
+Permission denied, please try again.
+root@134.122.44.78's password: 
+Welcome to Ubuntu 20.04.1 LTS (GNU/Linux 5.4.0-42-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon Jan 18 20:30:31 UTC 2021
+
+  System load:  0.56               Users logged in:       0
+  Usage of /:   12.8% of 24.06GB   IPv4 address for eth0: 134.122.44.78
+  Memory usage: 59%                IPv4 address for eth0: 10.20.0.5
+  Swap usage:   0%                 IPv4 address for eth1: 10.118.0.2
+  Processes:    120
+
+94 updates can be installed immediately.
+0 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+
+*** System restart required ***
+********************************************************************************
+
+Welcome to DigitalOcean's 1-Click LAMP Droplet.
+To keep this Droplet secure, the UFW firewall is enabled.
+All ports are BLOCKED except 22 (SSH), 80 (HTTP), and 443 (HTTPS).
+
+In a web browser, you can view:
+ * The LAMP 1-Click Quickstart guide: https://do.co/3gY97ha#start
+ * Your LAMP website: http://134.122.44.78
+
+On the server:
+ * The default web root is located at /var/www/html
+ * The MySQL root password is saved in /root/.digitalocean_password
+ * Certbot is preinstalled. Run it to configure HTTPS. See
+   https://do.co/3gY97ha#enable-https for more detail.
+
+For help and more information, visit https://do.co/3gY97ha
+
+********************************************************************************
+To delete this message of the day: rm -rf /etc/update-motd.d/99-one-click
+root@CyberSecurityTK:~# apt-get update
+Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [109 kB]
+Get:2 http://mirrors.digitalocean.com/ubuntu focal InRelease [265 kB]
+Get:3 http://mirrors.digitalocean.com/ubuntu focal-updates InRelease [114 kB]
+Get:4 http://mirrors.digitalocean.com/ubuntu focal-backports InRelease [101 kB]
+Get:5 http://mirrors.digitalocean.com/ubuntu focal-updates/main amd64 Packages [760 kB]
+Get:6 http://mirrors.digitalocean.com/ubuntu focal-updates/main Translation-en [187 kB]
+Get:7 http://mirrors.digitalocean.com/ubuntu focal-updates/main amd64 c-n-f Metadata [11.5 kB]
+Get:8 http://mirrors.digitalocean.com/ubuntu focal-updates/universe amd64 Packages [726 kB]
+Get:9 http://mirrors.digitalocean.com/ubuntu focal-updates/universe Translation-en [147 kB]
+Get:10 http://mirrors.digitalocean.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [15.4 kB]
+Get:11 http://mirrors.digitalocean.com/ubuntu focal-updates/multiverse amd64 Packages [15.5 kB]
+Get:12 http://mirrors.digitalocean.com/ubuntu focal-updates/multiverse amd64 c-n-f Metadata [528 B]
+Get:13 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [454 kB]
+Get:14 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [101 kB]
+Get:15 http://security.ubuntu.com/ubuntu focal-security/main amd64 c-n-f Metadata [5748 B]
+Get:16 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [526 kB]
+Get:17 http://security.ubuntu.com/ubuntu focal-security/universe Translation-en [71.1 kB]
+Get:18 http://security.ubuntu.com/ubuntu focal-security/universe amd64 c-n-f Metadata [9540 B]
+Fetched 3617 kB in 2s (1919 kB/s)                          
+Reading package lists... Done
+root@CyberSecurityTK:~# apt-get install apache2-utils
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+apache2-utils is already the newest version (2.4.41-4ubuntu3.1).
+0 upgraded, 0 newly installed, 0 to remove and 91 not upgraded.
+root@CyberSecurityTK:~# ping CyberSecurityTK
+PING CyberSecurityTK (127.0.1.1) 56(84) bytes of data.
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=1 ttl=64 time=0.055 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=2 ttl=64 time=0.089 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=3 ttl=64 time=0.106 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=4 ttl=64 time=0.085 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=5 ttl=64 time=0.092 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=6 ttl=64 time=0.107 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=7 ttl=64 time=0.080 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=8 ttl=64 time=0.073 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=9 ttl=64 time=0.078 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=10 ttl=64 time=0.109 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=11 ttl=64 time=0.071 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=12 ttl=64 time=0.090 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=13 ttl=64 time=0.089 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=14 ttl=64 time=0.074 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=15 ttl=64 time=0.083 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=16 ttl=64 time=0.100 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=17 ttl=64 time=0.075 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=18 ttl=64 time=0.089 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=19 ttl=64 time=0.076 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=20 ttl=64 time=0.103 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=21 ttl=64 time=0.079 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=22 ttl=64 time=0.088 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=23 ttl=64 time=0.080 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=24 ttl=64 time=0.076 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=25 ttl=64 time=0.098 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=26 ttl=64 time=0.096 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=27 ttl=64 time=0.090 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=28 ttl=64 time=0.071 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=29 ttl=64 time=0.079 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=30 ttl=64 time=0.079 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=31 ttl=64 time=0.100 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=32 ttl=64 time=0.086 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=33 ttl=64 time=0.059 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=34 ttl=64 time=0.073 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=35 ttl=64 time=0.067 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=36 ttl=64 time=0.078 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=37 ttl=64 time=0.069 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=38 ttl=64 time=0.093 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=39 ttl=64 time=0.073 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=40 ttl=64 time=0.093 ms
+64 bytes from CyberSecurityTK (127.0.1.1): icmp_seq=41 ttl=64 time=0.072 ms
+^C
+--- CyberSecurityTK ping statistics ---
+41 packets transmitted, 41 received, 0% packet loss, time 40963ms
+rtt min/avg/max/mdev = 0.055/0.083/0.109/0.012 ms
+root@CyberSecurityTK:~# 
