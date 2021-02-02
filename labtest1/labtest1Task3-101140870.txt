@@ -1,0 +1,20 @@
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Trucs-MacBook-Air:~ truckieu$ ping 205.166.76.53
+PING 205.166.76.53 (205.166.76.53): 56 data bytes
+64 bytes from 205.166.76.53: icmp_seq=0 ttl=248 time=69.333 ms
+64 bytes from 205.166.76.53: icmp_seq=1 ttl=248 time=68.924 ms
+64 bytes from 205.166.76.53: icmp_seq=2 ttl=248 time=67.165 ms
+64 bytes from 205.166.76.53: icmp_seq=3 ttl=248 time=68.804 ms
+64 bytes from 205.166.76.53: icmp_seq=4 ttl=248 time=66.461 ms
+64 bytes from 205.166.76.53: icmp_seq=5 ttl=248 time=66.437 ms
+64 bytes from 205.166.76.53: icmp_seq=6 ttl=248 time=67.141 ms
+64 bytes from 205.166.76.53: icmp_seq=7 ttl=248 time=68.979 ms
+64 bytes from 205.166.76.53: icmp_seq=8 ttl=248 time=68.004 ms
+64 bytes from 205.166.76.53: icmp_seq=9 ttl=248 time=66.815 ms
+^C
+--- 205.166.76.53 ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 66.437/67.806/69.333/1.073 ms
+(base) Trucs-MacBook-Air:~ truckieu$ 

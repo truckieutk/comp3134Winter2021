@@ -1,0 +1,12 @@
+root@CyberSecurityTK:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+03:31:32.274170 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 685769379:685769487, ack 297971484, win 501, options [nop,nop,TS val 2111850803 ecr 845174403], length 108
+03:31:32.274283 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 108:144, ack 1, win 501, options [nop,nop,TS val 2111850803 ecr 845174403], length 36
+03:31:32.274383 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 144:252, ack 1, win 501, options [nop,nop,TS val 2111850803 ecr 845174403], length 108
+03:31:32.274468 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 252:288, ack 1, win 501, options [nop,nop,TS val 2111850803 ecr 845174403], length 36
+03:31:32.275271 IP 134.122.44.78.54263 > dns.google.domain: 54566+ PTR? 162.70.93.174.in-addr.arpa. (44)
+5 packets captured
+25 packets received by filter
+0 packets dropped by kernel
+root@CyberSecurityTK:~# 

@@ -1,0 +1,46 @@
+IP: 205.166.76.53
+
+Using Network Ultilities:
+
+Traceroute has started…
+
+traceroute to 205.166.76.53 (205.166.76.53), 64 hops max, 72 byte packets
+ 1  mynetwork (192.168.2.1)  5.921 ms  4.595 ms  3.214 ms
+ 2  10.50.44.60 (10.50.44.60)  4.748 ms  10.518 ms  6.367 ms
+ 3  * * *
+ 4  tcore4-toronto12_be36.net.bell.ca (64.230.52.210)  24.558 ms  22.945 ms  22.741 ms
+ 5  tcore4-chicagocp_hundredgige0-4-0-0.net.bell.ca (64.230.79.157)  23.977 ms  17.775 ms  17.521 ms
+ 6  bx9-chicagodt_ae1-0.net.bell.ca (64.230.79.75)  19.058 ms  20.098 ms  20.055 ms
+ 7  * * *
+ 8  ae-2-52.ear3.seattle1.level3.net (4.69.203.169)  67.500 ms * *
+ 9  nintendo-of.ear3.seattle1.level3.net (4.16.169.178)  70.112 ms  69.273 ms  69.848 ms
+10  205.166.76.53 (205.166.76.53)  71.002 ms  67.970 ms  66.861 ms
+
+------
+
+Using Terminal
+
+(base) Trucs-MacBook-Air:~ truckieu$ traceroute 205.166.76.53
+traceroute to 205.166.76.53 (205.166.76.53), 64 hops max, 52 byte packets
+ 1  mynetwork (192.168.2.1)  4.641 ms  3.650 ms  4.211 ms
+ 2  10.50.44.60 (10.50.44.60)  3.434 ms  2.382 ms  4.125 ms
+ 3  * * *
+ 4  tcore3-toronto12_be36.net.bell.ca (64.230.52.208)  18.524 ms
+    tcore4-toronto12_be36.net.bell.ca (64.230.52.210)  20.404 ms
+    tcore3-toronto12_be36.net.bell.ca (64.230.52.208)  25.758 ms
+ 5  tcore4-chicagocp_hundredgige0-4-0-0.net.bell.ca (64.230.79.157)  17.501 ms
+    tcore3-chicagocp_hundredgige0-4-0-0.net.bell.ca (64.230.79.165)  20.587 ms
+    tcore3-chicagocp_hundredgige0-3-0-0.net.bell.ca (64.230.79.167)  22.143 ms
+ 6  bx9-chicagodt_ae0-0.net.bell.ca (64.230.79.73)  17.096 ms
+    bx9-chicagodt_ae1-0.net.bell.ca (64.230.79.75)  15.205 ms
+    bx9-chicagodt_ae0-0.net.bell.ca (64.230.79.73)  15.298 ms
+ 7  lag-101.ear7.chicago2.level3.net (4.15.248.93)  17.210 ms * *
+ 8  * * *
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * nintendo-of.ear3.seattle1.level3.net (4.16.169.178)  71.612 ms !X

@@ -1,0 +1,73 @@
+root@CyberSecurityTK:~# tcpdump -A -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+03:32:32.231991 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [.], ack 685771439, win 2047, options [nop,nop,TS val 845232174 ecr 2111910756], length 0
+E..4..@.5....]F..z,N.p.....t(.
+............
+2a8.}.3d
+03:32:32.235819 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 1:109, ack 0, win 501, options [nop,nop,TS val 2111910764 ecr 845232174], length 108
+E.....@.@....z,N.]F....p(.
+....t.....Z.....
+}.3l2a8....yVA.q..e.
+EIq...tg...=...D.
+*.~...~....of...Xa........g.o..O...?....a..Yr'...&...4.p........1.M&..g.L.[+M
+03:32:32.235945 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 109:145, ack 0, win 501, options [nop,nop,TS val 2111910765 ecr 845232174], length 36
+E..X..@.@....z,N.]F....p(......t...........
+}.3m2a8..aV..W.WS...N......{.|('.>..=U<.....
+03:32:32.236069 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 145:253, ack 0, win 501, options [nop,nop,TS val 2111910765 ecr 845232174], length 108
+E.....@.@....z,N.]F....p(..?...t.....Z.....
+}.3m2a8...UW....=_.<......NP._H....v..tQ)2.C.0$...i..
+.c..b.!........|........a....d.1.....L.j..I...:.....T..%....5.
+03:32:32.236158 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 253:289, ack 0, win 501, options [nop,nop,TS val 2111910765 ecr 845232174], length 36
+E..X..@.@..	.z,N.]F....p(......t...........
+}.3m2a8...o?x..!.,........./..J?.v...b0K.I..
+03:32:32.236939 IP 134.122.44.78.55623 > dns.google.domain: 43379+ PTR? 78.44.122.134.in-addr.arpa. (44)
+E..HEe@.@.2h.z,N.....G.5.4...s...........78.44.122.134.in-addr.arpa.....
+03:32:32.242126 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [.], ack 109, win 2046, options [nop,nop,TS val 845232182 ecr 2111910764], length 0
+E..4..@.5....]F..z,N.p.....t(........Y.....
+2a86}.3l
+03:32:32.242153 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [.], ack 145, win 2045, options [nop,nop,TS val 845232182 ecr 2111910765], length 0
+E..4..@.5....]F..z,N.p.....t(..?.....5.....
+2a86}.3m
+03:32:32.244492 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [.], ack 253, win 2044, options [nop,nop,TS val 845232182 ecr 2111910765], length 0
+E..4..@.5....]F..z,N.p.....t(..............
+2a86}.3m
+03:32:32.244887 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [.], ack 289, win 2043, options [nop,nop,TS val 845232182 ecr 2111910765], length 0
+E..4..@.5....]F..z,N.p.....t(..............
+2a86}.3m
+03:32:32.260504 IP dns.google.domain > 134.122.44.78.55623: 43379 NXDomain 0/1/0 (111)
+E.......|........z,N.5.G.w...s...........78.44.122.134.in-addr.arpa................7.ns1.digitalocean.com.
+hostmaster..`.....*0.....	:.....
+03:32:32.260892 IP 134.122.44.78.40076 > dns.google.domain: 6385+ PTR? 162.70.93.174.in-addr.arpa. (44)
+E..HEh@.@.2e.z,N.......5.4...............162.70.93.174.in-addr.arpa.....
+03:32:32.269249 IP dns.google.domain > 134.122.44.78.40076: 6385 1/0/0 PTR bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca. (112)
+E....^..|.e+.....z,N.5...x...............162.70.93.174.in-addr.arpa.............SJ.8*bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.
+03:32:32.269601 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 289:525, ack 0, win 501, options [nop,nop,TS val 2111910798 ecr 845232182], length 236
+E.. ..@.@..@.z,N.]F....p(......t...........
+}.3.2a86o.Z.AX.....n.U`b.`...>..... q.....I. po.......m.J.4d.=..C..[...I..;~^.sk....|..^%?..e.....o.z......vU..m...y...}.......b	.L%...u...r}....@2..d..U;n.Z.5%;\.[...w.........=.7......-.W5........R.Rl..5.j..^C{..?.m4........m.G].......m	#b./U
+03:32:32.269763 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 525:561, ack 0, win 501, options [nop,nop,TS val 2111910798 ecr 845232182], length 36
+E..X..@.@....z,N.]F....p(......t...........
+}.3.2a86..-...=...c..0t/k2.........p/\....C}
+03:32:32.269880 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 561:629, ack 0, win 501, options [nop,nop,TS val 2111910799 ecr 845232182], length 68
+E..x..@.@....z,N.]F....p(......t.....2.....
+}.3.2a86J..X.........D..@.O#q.S..M..P@bR{.....}.....O
+......................
+03:32:32.269970 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 629:665, ack 0, win 501, options [nop,nop,TS val 2111910799 ecr 845232182], length 36
+E..X..@.@....z,N.]F....p(..#...t...........
+}.3.2a86.
+......fDDk..\.jp....n..}Y.2{.....`
+03:32:32.270068 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 665:717, ack 0, win 501, options [nop,nop,TS val 2111910799 ecr 845232182], length 52
+E..h..@.@....z,N.]F....p(..G...t.....".....
+}.3.2a86.q.........J.0..0Fs.l.<.7....j.(..+.i?;.f.U.j..c;@f.
+03:32:32.270142 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 717:753, ack 0, win 501, options [nop,nop,TS val 2111910799 ecr 845232182], length 36
+E..X..@.@....z,N.]F....p(..{...t...........
+}.3.2a86X...t5O..%..8...Z..,P..x4.eZ........
+<.....[
+..> !o...v.<fwe.;".K-..0w.....'..#].+......!..oo}L...e}w..8...X."L. ............DL.0..M.....r..S0....:..&..\:....8.1..n....!.8..yG.`...X....gB.G:...8...j..#@.=P.....1..K..V.#..........:+ !7.w....%...]).B..s..9....1....v.2...i.....W.M...J0...c...Po....].PbG.+Ux...H.y..ar.k.y..86T.=.6./I.P...e0w...T.R............1.~.[.........k.v8l...(T.Y".~..eCj4....0.....|.6W.r..:....^1.0......r^.bk.j.-.d.a;._.........1..q.sB.....EJ._.C%.e.6.A. ......_..%8........)..2.n.....u.K..C...Z....n{e.*.XvJ...0.5..0.."N..\......n.0..^C..	......	.'.. ........x.5.O.~..(9.<..'..H.....8..N.
+wb->U1G
+.fs...........J.......G.I..5.....C.P.W.F.x<g,....X#..tw........^P.I:K.P.2.=.w).z.{mO'..v!4.p.z..D.T.
+
+6949 packets captured
+25142 packets received by filter
+18164 packets dropped by kernel
+root@CyberSecurityTK:~# 

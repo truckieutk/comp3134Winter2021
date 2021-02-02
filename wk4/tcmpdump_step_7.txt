@@ -1,0 +1,252 @@
+root@CyberSecurityTK:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+03:38:23.105695 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [.], ack 698897883, win 2678, options [nop,nop,TS val 845572073 ecr 2112261628], length 0
+03:38:23.109277 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 1:45, ack 0, win 501, options [nop,nop,TS val 2112261638 ecr 845572073], length 44
+03:38:23.109398 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 45:153, ack 0, win 501, options [nop,nop,TS val 2112261638 ecr 845572073], length 108
+03:38:23.109480 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 153:189, ack 0, win 501, options [nop,nop,TS val 2112261638 ecr 845572073], length 36
+03:38:23.134921 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 153:189, ack 0, win 501, options [nop,nop,TS val 2112261664 ecr 845572073], length 36
+03:38:23.237135 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [.], ack 45, win 2678, options [nop,nop,TS val 845572204 ecr 2112261638], length 0
+03:38:23.238058 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [.], ack 153, win 2677, options [nop,nop,TS val 845572204 ecr 2112261638], length 0
+03:38:23.239703 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [.], ack 189, win 2676, options [nop,nop,TS val 845572204 ecr 2112261638], length 0
+03:38:23.239718 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [.], ack 189, win 2676, options [nop,nop,TS val 845572204 ecr 2112261664,nop,nop,sack 1 {153:189}], length 0
+03:38:24.912696 IP ns525067.ip-158-69-123.net.35440 > 134.122.44.78.25565: Flags [S], seq 330556691, win 64240, options [mss 1460,sackOK,TS val 2577950217 ecr 0,nop,wscale 7], length 0
+03:38:24.912744 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35440: Flags [R.], seq 0, ack 330556692, win 0, length 0
+03:38:24.940667 IP ns525067.ip-158-69-123.net.35368 > 134.122.44.78.25565: Flags [S], seq 3158848058, win 64240, options [mss 1460,sackOK,TS val 2577950245 ecr 0,nop,wscale 7], length 0
+03:38:24.940718 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35368: Flags [R.], seq 0, ack 3158848059, win 0, length 0
+03:38:25.932651 IP ns525067.ip-158-69-123.net.35440 > 134.122.44.78.25565: Flags [S], seq 330556691, win 64240, options [mss 1460,sackOK,TS val 2577951237 ecr 0,nop,wscale 7], length 0
+03:38:25.932714 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35440: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:27.230329 IP 141.98.80.242.51945 > 134.122.44.78.8245: Flags [S], seq 1138535802, win 1024, length 0
+03:38:27.230386 IP 134.122.44.78.8245 > 141.98.80.242.51945: Flags [R.], seq 0, ack 1138535803, win 0, length 0
+03:38:27.333528 IP 141.98.80.242.51945 > 134.122.44.78.8245: Flags [R], seq 1138535803, win 1200, length 0
+03:38:27.913155 IP ns525067.ip-158-69-123.net.35526 > 134.122.44.78.25565: Flags [S], seq 229933259, win 64240, options [mss 1460,sackOK,TS val 2577953217 ecr 0,nop,wscale 7], length 0
+03:38:27.913239 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35526: Flags [R.], seq 0, ack 229933260, win 0, length 0
+03:38:27.948672 IP ns525067.ip-158-69-123.net.35440 > 134.122.44.78.25565: Flags [S], seq 330556691, win 64240, options [mss 1460,sackOK,TS val 2577953253 ecr 0,nop,wscale 7], length 0
+03:38:27.948733 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35440: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:28.067800 IP no-reverse-dns-configured.com.54037 > 134.122.44.78.772: Flags [S], seq 3876545544, win 1024, length 0
+03:38:28.067852 IP 134.122.44.78.772 > no-reverse-dns-configured.com.54037: Flags [R.], seq 0, ack 3876545545, win 0, length 0
+03:38:28.158888 IP no-reverse-dns-configured.com.54037 > 134.122.44.78.772: Flags [R], seq 3876545545, win 1200, length 0
+03:38:28.940676 IP ns525067.ip-158-69-123.net.35526 > 134.122.44.78.25565: Flags [S], seq 229933259, win 64240, options [mss 1460,sackOK,TS val 2577954245 ecr 0,nop,wscale 7], length 0
+03:38:28.940724 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35526: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:30.913713 IP ns525067.ip-158-69-123.net.35608 > 134.122.44.78.25565: Flags [S], seq 3411688366, win 64240, options [mss 1460,sackOK,TS val 2577956218 ecr 0,nop,wscale 7], length 0
+03:38:30.913766 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35608: Flags [R.], seq 0, ack 3411688367, win 0, length 0
+03:38:30.956681 IP ns525067.ip-158-69-123.net.35526 > 134.122.44.78.25565: Flags [S], seq 229933259, win 64240, options [mss 1460,sackOK,TS val 2577956261 ecr 0,nop,wscale 7], length 0
+03:38:30.956747 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35526: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:31.916637 IP ns525067.ip-158-69-123.net.35608 > 134.122.44.78.25565: Flags [S], seq 3411688366, win 64240, options [mss 1460,sackOK,TS val 2577957221 ecr 0,nop,wscale 7], length 0
+03:38:31.916701 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35608: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:33.057838 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [P.], seq 0:36, ack 189, win 2679, options [nop,nop,TS val 845581856 ecr 2112261664], length 36
+03:38:33.058187 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 189:225, ack 36, win 501, options [nop,nop,TS val 2112271587 ecr 845581856], length 36
+03:38:33.066500 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [.], ack 225, win 2678, options [nop,nop,TS val 845581864 ecr 2112271587], length 0
+03:38:33.914597 IP ns525067.ip-158-69-123.net.35702 > 134.122.44.78.25565: Flags [S], seq 3573208291, win 64240, options [mss 1460,sackOK,TS val 2577959219 ecr 0,nop,wscale 7], length 0
+03:38:33.914664 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35702: Flags [R.], seq 0, ack 3573208292, win 0, length 0
+03:38:33.932642 IP ns525067.ip-158-69-123.net.35608 > 134.122.44.78.25565: Flags [S], seq 3411688366, win 64240, options [mss 1460,sackOK,TS val 2577959237 ecr 0,nop,wscale 7], length 0
+03:38:33.932694 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35608: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:34.051911 IP no-reverse-dns-configured.com.54037 > 134.122.44.78.25795: Flags [S], seq 3165751032, win 1024, length 0
+03:38:34.051960 IP 134.122.44.78.25795 > no-reverse-dns-configured.com.54037: Flags [R.], seq 0, ack 3165751033, win 0, length 0
+03:38:34.145105 IP no-reverse-dns-configured.com.54037 > 134.122.44.78.25795: Flags [R], seq 3165751033, win 1200, length 0
+03:38:34.924639 IP ns525067.ip-158-69-123.net.35702 > 134.122.44.78.25565: Flags [S], seq 3573208291, win 64240, options [mss 1460,sackOK,TS val 2577960229 ecr 0,nop,wscale 7], length 0
+03:38:34.924688 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35702: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:36.915420 IP ns525067.ip-158-69-123.net.35770 > 134.122.44.78.25565: Flags [S], seq 2653427588, win 64240, options [mss 1460,sackOK,TS val 2577962219 ecr 0,nop,wscale 7], length 0
+03:38:36.915483 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35770: Flags [R.], seq 0, ack 2653427589, win 0, length 0
+03:38:36.940645 IP ns525067.ip-158-69-123.net.35702 > 134.122.44.78.25565: Flags [S], seq 3573208291, win 64240, options [mss 1460,sackOK,TS val 2577962245 ecr 0,nop,wscale 7], length 0
+03:38:36.940691 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35702: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:37.932650 IP ns525067.ip-158-69-123.net.35770 > 134.122.44.78.25565: Flags [S], seq 2653427588, win 64240, options [mss 1460,sackOK,TS val 2577963237 ecr 0,nop,wscale 7], length 0
+03:38:37.932723 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35770: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:39.916444 IP ns525067.ip-158-69-123.net.35858 > 134.122.44.78.25565: Flags [S], seq 1030448488, win 64240, options [mss 1460,sackOK,TS val 2577965220 ecr 0,nop,wscale 7], length 0
+03:38:39.916499 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35858: Flags [R.], seq 0, ack 1030448489, win 0, length 0
+03:38:39.952619 IP ns525067.ip-158-69-123.net.35770 > 134.122.44.78.25565: Flags [S], seq 2653427588, win 64240, options [mss 1460,sackOK,TS val 2577965257 ecr 0,nop,wscale 7], length 0
+03:38:39.952674 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35770: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:40.944648 IP ns525067.ip-158-69-123.net.35858 > 134.122.44.78.25565: Flags [S], seq 1030448488, win 64240, options [mss 1460,sackOK,TS val 2577966249 ecr 0,nop,wscale 7], length 0
+03:38:40.944697 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35858: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:42.916361 IP ns525067.ip-158-69-123.net.35928 > 134.122.44.78.25565: Flags [S], seq 1355658998, win 64240, options [mss 1460,sackOK,TS val 2577968220 ecr 0,nop,wscale 7], length 0
+03:38:42.916409 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35928: Flags [R.], seq 0, ack 1355658999, win 0, length 0
+03:38:42.956658 IP ns525067.ip-158-69-123.net.35858 > 134.122.44.78.25565: Flags [S], seq 1030448488, win 64240, options [mss 1460,sackOK,TS val 2577968261 ecr 0,nop,wscale 7], length 0
+03:38:42.956737 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35858: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:43.916626 IP ns525067.ip-158-69-123.net.35928 > 134.122.44.78.25565: Flags [S], seq 1355658998, win 64240, options [mss 1460,sackOK,TS val 2577969221 ecr 0,nop,wscale 7], length 0
+03:38:43.916688 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35928: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:45.249664 IP 194.147.140.109.56272 > 134.122.44.78.52004: Flags [S], seq 1353999344, win 1024, length 0
+03:38:45.249715 IP 134.122.44.78.52004 > 194.147.140.109.56272: Flags [R.], seq 0, ack 1353999345, win 0, length 0
+03:38:45.343841 IP 194.147.140.109.56272 > 134.122.44.78.52004: Flags [R], seq 1353999345, win 1200, length 0
+03:38:45.916798 IP ns525067.ip-158-69-123.net.36022 > 134.122.44.78.25565: Flags [S], seq 1432233942, win 64240, options [mss 1460,sackOK,TS val 2577971221 ecr 0,nop,wscale 7], length 0
+03:38:45.916849 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36022: Flags [R.], seq 0, ack 1432233943, win 0, length 0
+03:38:45.932843 IP ns525067.ip-158-69-123.net.35928 > 134.122.44.78.25565: Flags [S], seq 1355658998, win 64240, options [mss 1460,sackOK,TS val 2577971237 ecr 0,nop,wscale 7], length 0
+03:38:45.932896 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.35928: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:46.924661 IP ns525067.ip-158-69-123.net.36022 > 134.122.44.78.25565: Flags [S], seq 1432233942, win 64240, options [mss 1460,sackOK,TS val 2577972229 ecr 0,nop,wscale 7], length 0
+03:38:46.924710 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36022: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:48.917506 IP ns525067.ip-158-69-123.net.36090 > 134.122.44.78.25565: Flags [S], seq 3333628320, win 64240, options [mss 1460,sackOK,TS val 2577974222 ecr 0,nop,wscale 7], length 0
+03:38:48.917610 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36090: Flags [R.], seq 0, ack 3333628321, win 0, length 0
+03:38:48.940666 IP ns525067.ip-158-69-123.net.36022 > 134.122.44.78.25565: Flags [S], seq 1432233942, win 64240, options [mss 1460,sackOK,TS val 2577974245 ecr 0,nop,wscale 7], length 0
+03:38:48.940728 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36022: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:49.932639 IP ns525067.ip-158-69-123.net.36090 > 134.122.44.78.25565: Flags [S], seq 3333628320, win 64240, options [mss 1460,sackOK,TS val 2577975237 ecr 0,nop,wscale 7], length 0
+03:38:49.932699 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36090: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:51.920928 IP ns525067.ip-158-69-123.net.36168 > 134.122.44.78.25565: Flags [S], seq 1436526822, win 64240, options [mss 1460,sackOK,TS val 2577977225 ecr 0,nop,wscale 7], length 0
+03:38:51.920981 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36168: Flags [R.], seq 0, ack 1436526823, win 0, length 0
+03:38:51.948687 IP ns525067.ip-158-69-123.net.36090 > 134.122.44.78.25565: Flags [S], seq 3333628320, win 64240, options [mss 1460,sackOK,TS val 2577977253 ecr 0,nop,wscale 7], length 0
+03:38:51.948752 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36090: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:52.940733 IP ns525067.ip-158-69-123.net.36168 > 134.122.44.78.25565: Flags [S], seq 1436526822, win 64240, options [mss 1460,sackOK,TS val 2577978245 ecr 0,nop,wscale 7], length 0
+03:38:52.940832 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36168: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:54.921932 IP ns525067.ip-158-69-123.net.36302 > 134.122.44.78.25565: Flags [S], seq 1941684728, win 64240, options [mss 1460,sackOK,TS val 2577980226 ecr 0,nop,wscale 7], length 0
+03:38:54.921999 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36302: Flags [R.], seq 0, ack 1941684729, win 0, length 0
+03:38:54.956649 IP ns525067.ip-158-69-123.net.36168 > 134.122.44.78.25565: Flags [S], seq 1436526822, win 64240, options [mss 1460,sackOK,TS val 2577980261 ecr 0,nop,wscale 7], length 0
+03:38:54.956709 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36168: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:55.952653 IP ns525067.ip-158-69-123.net.36302 > 134.122.44.78.25565: Flags [S], seq 1941684728, win 64240, options [mss 1460,sackOK,TS val 2577981257 ecr 0,nop,wscale 7], length 0
+03:38:55.952705 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36302: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:57.922551 IP ns525067.ip-158-69-123.net.36392 > 134.122.44.78.25565: Flags [S], seq 3493150535, win 64240, options [mss 1460,sackOK,TS val 2577983227 ecr 0,nop,wscale 7], length 0
+03:38:57.922617 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36392: Flags [R.], seq 0, ack 3493150536, win 0, length 0
+03:38:57.964638 IP ns525067.ip-158-69-123.net.36302 > 134.122.44.78.25565: Flags [S], seq 1941684728, win 64240, options [mss 1460,sackOK,TS val 2577983269 ecr 0,nop,wscale 7], length 0
+03:38:57.964706 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36302: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:58.320777 IP 138.99.216.142.58324 > 134.122.44.78.4441: Flags [S], seq 1181636670, win 1024, length 0
+03:38:58.320828 IP 134.122.44.78.4441 > 138.99.216.142.58324: Flags [R.], seq 0, ack 1181636671, win 0, length 0
+03:38:58.414067 IP 138.99.216.142.58324 > 134.122.44.78.4441: Flags [R], seq 1181636671, win 1200, length 0
+03:38:58.924632 IP ns525067.ip-158-69-123.net.36392 > 134.122.44.78.25565: Flags [S], seq 3493150535, win 64240, options [mss 1460,sackOK,TS val 2577984229 ecr 0,nop,wscale 7], length 0
+03:38:58.924722 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36392: Flags [R.], seq 0, ack 1, win 0, length 0
+03:38:59.527457 IP 122.243.164.61.broad.ls.zj.dynamic.163data.com.cn.54979 > 134.122.44.78.microsoft-ds: Flags [S], seq 3747404913, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+03:38:59.527506 IP 134.122.44.78.microsoft-ds > 122.243.164.61.broad.ls.zj.dynamic.163data.com.cn.54979: Flags [R.], seq 0, ack 3747404914, win 0, length 0
+03:39:00.320780 IP 122.243.164.61.broad.ls.zj.dynamic.163data.com.cn.54979 > 134.122.44.78.microsoft-ds: Flags [S], seq 3747404913, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+03:39:00.320843 IP 134.122.44.78.microsoft-ds > 122.243.164.61.broad.ls.zj.dynamic.163data.com.cn.54979: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:00.922697 IP ns525067.ip-158-69-123.net.36460 > 134.122.44.78.25565: Flags [S], seq 1174720131, win 64240, options [mss 1460,sackOK,TS val 2577986227 ecr 0,nop,wscale 7], length 0
+03:39:00.922749 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36460: Flags [R.], seq 0, ack 1174720132, win 0, length 0
+03:39:00.940678 IP ns525067.ip-158-69-123.net.36392 > 134.122.44.78.25565: Flags [S], seq 3493150535, win 64240, options [mss 1460,sackOK,TS val 2577986245 ecr 0,nop,wscale 7], length 0
+03:39:00.940741 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36392: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:01.132020 IP 122.243.164.61.broad.ls.zj.dynamic.163data.com.cn.54979 > 134.122.44.78.microsoft-ds: Flags [S], seq 3747404913, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+03:39:01.132081 IP 134.122.44.78.microsoft-ds > 122.243.164.61.broad.ls.zj.dynamic.163data.com.cn.54979: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:01.932638 IP ns525067.ip-158-69-123.net.36460 > 134.122.44.78.25565: Flags [S], seq 1174720131, win 64240, options [mss 1460,sackOK,TS val 2577987237 ecr 0,nop,wscale 7], length 0
+03:39:01.932686 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36460: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:03.922665 IP ns525067.ip-158-69-123.net.36490 > 134.122.44.78.25565: Flags [S], seq 3403996747, win 64240, options [mss 1460,sackOK,TS val 2577989227 ecr 0,nop,wscale 7], length 0
+03:39:03.922713 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36490: Flags [R.], seq 0, ack 3403996748, win 0, length 0
+03:39:03.948708 IP ns525067.ip-158-69-123.net.36460 > 134.122.44.78.25565: Flags [S], seq 1174720131, win 64240, options [mss 1460,sackOK,TS val 2577989253 ecr 0,nop,wscale 7], length 0
+03:39:03.948770 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36460: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:04.338835 IP 89.248.165.104.59080 > 134.122.44.78.11030: Flags [S], seq 664487870, win 1024, length 0
+03:39:04.338890 IP 134.122.44.78.11030 > 89.248.165.104.59080: Flags [R.], seq 0, ack 664487871, win 0, length 0
+03:39:04.464019 IP 89.248.165.104.59080 > 134.122.44.78.11030: Flags [R], seq 664487871, win 1200, length 0
+03:39:04.940667 IP ns525067.ip-158-69-123.net.36490 > 134.122.44.78.25565: Flags [S], seq 3403996747, win 64240, options [mss 1460,sackOK,TS val 2577990245 ecr 0,nop,wscale 7], length 0
+03:39:04.940718 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36490: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:05.219665 IP kraken-2-0-1943-20000-sfo2-0.0.0.0-0.61953 > 134.122.44.78.1943: Flags [S], seq 2914107731, win 1024, length 0
+03:39:05.219705 IP 134.122.44.78.1943 > kraken-2-0-1943-20000-sfo2-0.0.0.0-0.61953: Flags [R.], seq 0, ack 2914107732, win 0, length 0
+03:39:06.925643 IP ns525067.ip-158-69-123.net.36628 > 134.122.44.78.25565: Flags [S], seq 3471574522, win 64240, options [mss 1460,sackOK,TS val 2577992230 ecr 0,nop,wscale 7], length 0
+03:39:06.925709 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36628: Flags [R.], seq 0, ack 3471574523, win 0, length 0
+03:39:06.956650 IP ns525067.ip-158-69-123.net.36490 > 134.122.44.78.25565: Flags [S], seq 3403996747, win 64240, options [mss 1460,sackOK,TS val 2577992261 ecr 0,nop,wscale 7], length 0
+03:39:06.956703 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36490: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:07.948662 IP ns525067.ip-158-69-123.net.36628 > 134.122.44.78.25565: Flags [S], seq 3471574522, win 64240, options [mss 1460,sackOK,TS val 2577993253 ecr 0,nop,wscale 7], length 0
+03:39:07.948724 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36628: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:09.050878 ARP, Request who-has 134.122.32.1 tell 134.122.44.78, length 28
+03:39:09.052240 ARP, Reply 134.122.32.1 is-at fe:00:00:00:01:01 (oui Unknown), length 46
+03:39:09.924874 IP ns525067.ip-158-69-123.net.36666 > 134.122.44.78.25565: Flags [S], seq 4108159295, win 64240, options [mss 1460,sackOK,TS val 2577995229 ecr 0,nop,wscale 7], length 0
+03:39:09.924936 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36666: Flags [R.], seq 0, ack 4108159296, win 0, length 0
+03:39:09.964657 IP ns525067.ip-158-69-123.net.36628 > 134.122.44.78.25565: Flags [S], seq 3471574522, win 64240, options [mss 1460,sackOK,TS val 2577995269 ecr 0,nop,wscale 7], length 0
+03:39:09.964719 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36628: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:10.960646 IP ns525067.ip-158-69-123.net.36666 > 134.122.44.78.25565: Flags [S], seq 4108159295, win 64240, options [mss 1460,sackOK,TS val 2577996265 ecr 0,nop,wscale 7], length 0
+03:39:10.960696 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36666: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:12.925445 IP ns525067.ip-158-69-123.net.36780 > 134.122.44.78.25565: Flags [S], seq 1770714995, win 64240, options [mss 1460,sackOK,TS val 2577998230 ecr 0,nop,wscale 7], length 0
+03:39:12.925497 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36780: Flags [R.], seq 0, ack 1770714996, win 0, length 0
+03:39:12.972622 IP ns525067.ip-158-69-123.net.36666 > 134.122.44.78.25565: Flags [S], seq 4108159295, win 64240, options [mss 1460,sackOK,TS val 2577998277 ecr 0,nop,wscale 7], length 0
+03:39:12.972724 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36666: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:13.936662 IP ns525067.ip-158-69-123.net.36780 > 134.122.44.78.25565: Flags [S], seq 1770714995, win 64240, options [mss 1460,sackOK,TS val 2577999241 ecr 0,nop,wscale 7], length 0
+03:39:13.936715 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36780: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:15.925873 IP ns525067.ip-158-69-123.net.36838 > 134.122.44.78.25565: Flags [S], seq 3919969735, win 64240, options [mss 1460,sackOK,TS val 2578001230 ecr 0,nop,wscale 7], length 0
+03:39:15.925937 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36838: Flags [R.], seq 0, ack 3919969736, win 0, length 0
+03:39:15.952645 IP ns525067.ip-158-69-123.net.36780 > 134.122.44.78.25565: Flags [S], seq 1770714995, win 64240, options [mss 1460,sackOK,TS val 2578001257 ecr 0,nop,wscale 7], length 0
+03:39:15.952720 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36780: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:16.606789 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [P.], seq 36:72, ack 225, win 2679, options [nop,nop,TS val 845624063 ecr 2112271587], length 36
+03:39:16.607066 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 225:261, ack 72, win 501, options [nop,nop,TS val 2112315136 ecr 845624063], length 36
+03:39:16.611246 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [.], ack 261, win 2678, options [nop,nop,TS val 845624067 ecr 2112315136], length 0
+03:39:16.847762 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [P.], seq 72:108, ack 261, win 2679, options [nop,nop,TS val 845624273 ecr 2112315136], length 36
+03:39:16.848053 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [P.], seq 261:297, ack 108, win 501, options [nop,nop,TS val 2112315377 ecr 845624273], length 36
+03:39:16.854581 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [.], ack 297, win 2678, options [nop,nop,TS val 845624280 ecr 2112315377], length 0
+03:39:16.940664 IP ns525067.ip-158-69-123.net.36838 > 134.122.44.78.25565: Flags [S], seq 3919969735, win 64240, options [mss 1460,sackOK,TS val 2578002245 ecr 0,nop,wscale 7], length 0
+03:39:16.940725 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36838: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:18.262032 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [P.], seq 108:144, ack 297, win 2679, options [nop,nop,TS val 845625638 ecr 2112315377], length 36
+03:39:18.302872 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [.], ack 144, win 501, options [nop,nop,TS val 2112316832 ecr 845625638], length 0
+03:39:18.481504 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [P.], seq 144:180, ack 297, win 2679, options [nop,nop,TS val 845625855 ecr 2112316832], length 36
+03:39:18.481548 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [.], ack 180, win 501, options [nop,nop,TS val 2112317010 ecr 845625855], length 0
+03:39:18.648634 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [P.], seq 180:216, ack 297, win 2679, options [nop,nop,TS val 845626015 ecr 2112317010], length 36
+03:39:18.648687 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [.], ack 216, win 501, options [nop,nop,TS val 2112317177 ecr 845626015], length 0
+03:39:18.662579 IP 134.122.44.78.57165 > dns.google.domain: 1570+ A? ntp.ubuntu.com. (32)
+03:39:18.662608 IP 134.122.44.78.57165 > dns.google.domain: 45860+ AAAA? ntp.ubuntu.com. (32)
+03:39:18.664187 IP dns.google.domain > 134.122.44.78.57165: 45860 2/0/0 AAAA 2001:67c:1560:8003::c7, AAAA 2001:67c:1560:8003::c8 (88)
+03:39:18.664217 IP dns.google.domain > 134.122.44.78.57165: 1570 4/0/0 A 91.189.91.157, A 91.189.89.198, A 91.189.94.4, A 91.189.89.199 (96)
+03:39:18.664891 IP 134.122.44.78.49630 > alphyn.canonical.com.ntp: NTPv4, Client, length 48
+03:39:18.681191 IP alphyn.canonical.com.ntp > 134.122.44.78.49630: NTPv4, Server, length 48
+03:39:18.813946 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [P.], seq 216:252, ack 297, win 2679, options [nop,nop,TS val 845626178 ecr 2112317177], length 36
+03:39:18.814015 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [.], ack 252, win 501, options [nop,nop,TS val 2112317343 ecr 845626178], length 0
+03:39:18.926802 IP ns525067.ip-158-69-123.net.36950 > 134.122.44.78.25565: Flags [S], seq 3511654253, win 64240, options [mss 1460,sackOK,TS val 2578004231 ecr 0,nop,wscale 7], length 0
+03:39:18.926860 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36950: Flags [R.], seq 0, ack 3511654254, win 0, length 0
+03:39:18.959249 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [P.], seq 252:288, ack 297, win 2679, options [nop,nop,TS val 845626315 ecr 2112317343], length 36
+03:39:18.959288 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [.], ack 288, win 501, options [nop,nop,TS val 2112317488 ecr 845626315], length 0
+03:39:18.960611 IP ns525067.ip-158-69-123.net.36838 > 134.122.44.78.25565: Flags [S], seq 3919969735, win 64240, options [mss 1460,sackOK,TS val 2578004265 ecr 0,nop,wscale 7], length 0
+03:39:18.960637 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36838: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:19.104197 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [P.], seq 288:324, ack 297, win 2679, options [nop,nop,TS val 845626459 ecr 2112317488], length 36
+03:39:19.104250 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [.], ack 324, win 501, options [nop,nop,TS val 2112317633 ecr 845626459], length 0
+03:39:19.251515 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320 > 134.122.44.78.ssh: Flags [P.], seq 324:360, ack 297, win 2679, options [nop,nop,TS val 845626601 ecr 2112317633], length 36
+03:39:19.251562 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.62320: Flags [.], ack 360, win 501, options [nop,nop,TS val 2112317780 ecr 845626601], length 0
+03:39:19.948954 IP ns525067.ip-158-69-123.net.36950 > 134.122.44.78.25565: Flags [S], seq 3511654253, win 64240, options [mss 1460,sackOK,TS val 2578005253 ecr 0,nop,wscale 7], length 0
+03:39:19.948999 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36950: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:20.887856 IP 61.177.173.10.23261 > 134.122.44.78.ssh: Flags [S], seq 1973681741, win 29200, options [mss 1460,sackOK,TS val 144294170 ecr 0,nop,wscale 7], length 0
+03:39:20.887911 IP 134.122.44.78 > 61.177.173.10: ICMP 134.122.44.78 tcp port ssh unreachable, length 68
+03:39:21.131252 IP 61.177.173.10.25129 > 134.122.44.78.ssh: Flags [S], seq 2074371567, win 29200, options [mss 1460,sackOK,TS val 144294231 ecr 0,nop,wscale 7], length 0
+03:39:21.131327 IP 134.122.44.78 > 61.177.173.10: ICMP 134.122.44.78 tcp port ssh unreachable, length 68
+03:39:21.359668 IP 61.177.173.10.26837 > 134.122.44.78.ssh: Flags [S], seq 3463805187, win 29200, options [mss 1460,sackOK,TS val 144294292 ecr 0,nop,wscale 7], length 0
+03:39:21.359724 IP 134.122.44.78 > 61.177.173.10: ICMP 134.122.44.78 tcp port ssh unreachable, length 68
+03:39:21.927757 IP ns525067.ip-158-69-123.net.37030 > 134.122.44.78.25565: Flags [S], seq 138560644, win 64240, options [mss 1460,sackOK,TS val 2578007232 ecr 0,nop,wscale 7], length 0
+03:39:21.927805 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37030: Flags [R.], seq 0, ack 138560645, win 0, length 0
+03:39:21.964676 IP ns525067.ip-158-69-123.net.36950 > 134.122.44.78.25565: Flags [S], seq 3511654253, win 64240, options [mss 1460,sackOK,TS val 2578007269 ecr 0,nop,wscale 7], length 0
+03:39:21.964736 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.36950: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:22.956642 IP ns525067.ip-158-69-123.net.37030 > 134.122.44.78.25565: Flags [S], seq 138560644, win 64240, options [mss 1460,sackOK,TS val 2578008261 ecr 0,nop,wscale 7], length 0
+03:39:22.956705 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37030: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:23.150497 IP no-reverse-dns-configured.com.59185 > 134.122.44.78.14251: Flags [S], seq 2742068540, win 1024, length 0
+03:39:23.150562 IP 134.122.44.78.14251 > no-reverse-dns-configured.com.59185: Flags [R.], seq 0, ack 2742068541, win 0, length 0
+03:39:23.244280 IP no-reverse-dns-configured.com.59185 > 134.122.44.78.14251: Flags [R], seq 2742068541, win 1200, length 0
+03:39:24.927262 IP ns525067.ip-158-69-123.net.37058 > 134.122.44.78.25565: Flags [S], seq 1208830407, win 64240, options [mss 1460,sackOK,TS val 2578010231 ecr 0,nop,wscale 7], length 0
+03:39:24.927351 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37058: Flags [R.], seq 0, ack 1208830408, win 0, length 0
+03:39:24.972681 IP ns525067.ip-158-69-123.net.37030 > 134.122.44.78.25565: Flags [S], seq 138560644, win 64240, options [mss 1460,sackOK,TS val 2578010277 ecr 0,nop,wscale 7], length 0
+03:39:24.972744 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37030: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:25.932676 IP ns525067.ip-158-69-123.net.37058 > 134.122.44.78.25565: Flags [S], seq 1208830407, win 64240, options [mss 1460,sackOK,TS val 2578011237 ecr 0,nop,wscale 7], length 0
+03:39:25.932742 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37058: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:26.323584 IP 194.147.140.109.56272 > 134.122.44.78.34843: Flags [S], seq 2646344629, win 1024, length 0
+03:39:26.323639 IP 134.122.44.78.34843 > 194.147.140.109.56272: Flags [R.], seq 0, ack 2646344630, win 0, length 0
+03:39:26.421465 IP 194.147.140.109.56272 > 134.122.44.78.34843: Flags [R], seq 2646344630, win 1200, length 0
+03:39:27.932192 IP ns525067.ip-158-69-123.net.37208 > 134.122.44.78.25565: Flags [S], seq 1526781094, win 64240, options [mss 1460,sackOK,TS val 2578013236 ecr 0,nop,wscale 7], length 0
+03:39:27.932240 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37208: Flags [R.], seq 0, ack 1526781095, win 0, length 0
+03:39:27.948608 IP ns525067.ip-158-69-123.net.37058 > 134.122.44.78.25565: Flags [S], seq 1208830407, win 64240, options [mss 1460,sackOK,TS val 2578013253 ecr 0,nop,wscale 7], length 0
+03:39:27.948656 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37058: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:28.944624 IP ns525067.ip-158-69-123.net.37208 > 134.122.44.78.25565: Flags [S], seq 1526781094, win 64240, options [mss 1460,sackOK,TS val 2578014249 ecr 0,nop,wscale 7], length 0
+03:39:28.944672 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37208: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:30.928374 IP ns525067.ip-158-69-123.net.37216 > 134.122.44.78.25565: Flags [S], seq 4163028113, win 64240, options [mss 1460,sackOK,TS val 2578016232 ecr 0,nop,wscale 7], length 0
+03:39:30.928437 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37216: Flags [R.], seq 0, ack 4163028114, win 0, length 0
+03:39:30.960664 IP ns525067.ip-158-69-123.net.37208 > 134.122.44.78.25565: Flags [S], seq 1526781094, win 64240, options [mss 1460,sackOK,TS val 2578016265 ecr 0,nop,wscale 7], length 0
+03:39:30.960707 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37208: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:31.952686 IP ns525067.ip-158-69-123.net.37216 > 134.122.44.78.25565: Flags [S], seq 4163028113, win 64240, options [mss 1460,sackOK,TS val 2578017257 ecr 0,nop,wscale 7], length 0
+03:39:31.952741 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37216: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:33.929963 IP ns525067.ip-158-69-123.net.37340 > 134.122.44.78.25565: Flags [S], seq 888190816, win 64240, options [mss 1460,sackOK,TS val 2578019234 ecr 0,nop,wscale 7], length 0
+03:39:33.930013 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37340: Flags [R.], seq 0, ack 888190817, win 0, length 0
+03:39:33.968690 IP ns525067.ip-158-69-123.net.37216 > 134.122.44.78.25565: Flags [S], seq 4163028113, win 64240, options [mss 1460,sackOK,TS val 2578019273 ecr 0,nop,wscale 7], length 0
+03:39:33.968752 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37216: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:34.956644 IP ns525067.ip-158-69-123.net.37340 > 134.122.44.78.25565: Flags [S], seq 888190816, win 64240, options [mss 1460,sackOK,TS val 2578020261 ecr 0,nop,wscale 7], length 0
+03:39:34.956707 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37340: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:35.047351 IP 194.147.140.109.56272 > 134.122.44.78.36637: Flags [S], seq 2941615026, win 1024, length 0
+03:39:35.047400 IP 134.122.44.78.36637 > 194.147.140.109.56272: Flags [R.], seq 0, ack 2941615027, win 0, length 0
+03:39:35.146997 IP 194.147.140.109.56272 > 134.122.44.78.36637: Flags [R], seq 2941615027, win 1200, length 0
+03:39:36.929814 IP ns525067.ip-158-69-123.net.37384 > 134.122.44.78.25565: Flags [S], seq 1824004413, win 64240, options [mss 1460,sackOK,TS val 2578022234 ecr 0,nop,wscale 7], length 0
+03:39:36.929862 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37384: Flags [R.], seq 0, ack 1824004414, win 0, length 0
+03:39:36.972646 IP ns525067.ip-158-69-123.net.37340 > 134.122.44.78.25565: Flags [S], seq 888190816, win 64240, options [mss 1460,sackOK,TS val 2578022277 ecr 0,nop,wscale 7], length 0
+03:39:36.972696 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37340: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:37.932655 IP ns525067.ip-158-69-123.net.37384 > 134.122.44.78.25565: Flags [S], seq 1824004413, win 64240, options [mss 1460,sackOK,TS val 2578023237 ecr 0,nop,wscale 7], length 0
+03:39:37.932728 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37384: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:39.930497 IP ns525067.ip-158-69-123.net.37482 > 134.122.44.78.25565: Flags [S], seq 2389037442, win 64240, options [mss 1460,sackOK,TS val 2578025235 ecr 0,nop,wscale 7], length 0
+03:39:39.930567 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37482: Flags [R.], seq 0, ack 2389037443, win 0, length 0
+03:39:39.948663 IP ns525067.ip-158-69-123.net.37384 > 134.122.44.78.25565: Flags [S], seq 1824004413, win 64240, options [mss 1460,sackOK,TS val 2578025253 ecr 0,nop,wscale 7], length 0
+03:39:39.948710 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37384: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:40.940642 IP ns525067.ip-158-69-123.net.37482 > 134.122.44.78.25565: Flags [S], seq 2389037442, win 64240, options [mss 1460,sackOK,TS val 2578026245 ecr 0,nop,wscale 7], length 0
+03:39:40.940695 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37482: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:42.931227 IP ns525067.ip-158-69-123.net.37578 > 134.122.44.78.25565: Flags [S], seq 1762718858, win 64240, options [mss 1460,sackOK,TS val 2578028235 ecr 0,nop,wscale 7], length 0
+03:39:42.931283 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37578: Flags [R.], seq 0, ack 1762718859, win 0, length 0
+03:39:42.956652 IP ns525067.ip-158-69-123.net.37482 > 134.122.44.78.25565: Flags [S], seq 2389037442, win 64240, options [mss 1460,sackOK,TS val 2578028261 ecr 0,nop,wscale 7], length 0
+03:39:42.956717 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37482: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:43.948666 IP ns525067.ip-158-69-123.net.37578 > 134.122.44.78.25565: Flags [S], seq 1762718858, win 64240, options [mss 1460,sackOK,TS val 2578029253 ecr 0,nop,wscale 7], length 0
+03:39:43.948718 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37578: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:45.931446 IP ns525067.ip-158-69-123.net.37624 > 134.122.44.78.25565: Flags [S], seq 3268598454, win 64240, options [mss 1460,sackOK,TS val 2578031236 ecr 0,nop,wscale 7], length 0
+03:39:45.931502 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37624: Flags [R.], seq 0, ack 3268598455, win 0, length 0
+03:39:45.968643 IP ns525067.ip-158-69-123.net.37578 > 134.122.44.78.25565: Flags [S], seq 1762718858, win 64240, options [mss 1460,sackOK,TS val 2578031273 ecr 0,nop,wscale 7], length 0
+03:39:45.968699 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37578: Flags [R.], seq 0, ack 1, win 0, length 0
+03:39:46.956639 IP ns525067.ip-158-69-123.net.37624 > 134.122.44.78.25565: Flags [S], seq 3268598454, win 64240, options [mss 1460,sackOK,TS val 2578032261 ecr 0,nop,wscale 7], length 0
+03:39:46.956687 IP 134.122.44.78.25565 > ns525067.ip-158-69-123.net.37624: Flags [R.], seq 0, ack 1, win 0, length 0
+root@CyberSecurityTK:~# 
