@@ -1,0 +1,28 @@
+Command:
+tcpdump -c 3 -i eth0 -vv udp
+tcpdump -c 3 -i lo udp port 8125 -vv -X
+tcpdump -c 3 -i lo udp port 8125
+tcpdump -i lo udp port 22 -vv -X
+
+20:24:21.913559 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.57857: Flags [P.], seq 144:252, ack 1, win 501, options [nop,nop,TS val 4246220442 ecr 1690451059], length 108
+
+Source Host: 134.122.44.78
+Source Port: 
+Destination Host: bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.57857
+Destination Port:
+
+20:24:21.913688 IP 134.122.44.78.ssh > bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.57857: Flags [P.], seq 252:288, ack 1, win 501, options [nop,nop,TS val 4246220442 ecr 1690451059], length 36
+
+Source Host: 134.122.44.78
+Source Port: 
+Destination Host: bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.57857
+Destination Port
+
+20:24:21.918888 IP bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.57857 > 134.122.44.78.ssh: Flags [.], ack 108, win 2046, options [nop,nop,TS val 1690451091 ecr 4246220442], length 0
+
+Source Host:  bras-base-toroon4432w-grc-16-174-93-70-162.dsl.bell.ca.57857
+Source Port
+Destination Host: 134.122.44.78
+Destination Port
+
+

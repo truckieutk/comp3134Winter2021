@@ -1,0 +1,17 @@
+Command: tcpdump -c 3 -i eth0 icmp
+
+20:46:02.475748 IP 134.122.44.78 > 1.180.211.139: ICMP 134.122.44.78 tcp port ssh unreachable, length 112
+Source Host: 134.122.44.78
+Destination Host: 1.180.211.139
+
+20:46:04.141248 IP 134.122.44.78 > 1.180.211.139: ICMP 134.122.44.78 tcp port ssh unreachable, length 72
+Source Host: 134.122.44.78
+Destination Host: 1.180.211.139
+
+20:46:12.781087 IP 134.122.44.78 > 81.68.166.215: ICMP 134.122.44.78 tcp port ssh unreachable, length 68
+Source Host: 134.122.44.78
+Destination Host: 81.68.166.215
+
+3 packets captured
+3 packets received by filter
+0 packets dropped by kernel
