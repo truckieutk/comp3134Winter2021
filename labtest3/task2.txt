@@ -1,0 +1,10 @@
+youtube-dl -j ytsearch:happy
+
+or 
+
+sudo apt-get install mps-youtube
+
+or 
+
+youtube-viewer happy
+youtube-search happy

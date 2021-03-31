@@ -1,0 +1,8 @@
+Website: https://dmzbwb02.georgebrown.ca/
+a. Name of domain: georgebrown.ca
+b. Hidden input fields:
+<iframe id="loginrouterframe" src="/PROD/wwbklogn.p_view?p_name=SSO-CONNECTED" height="0" width="0" style="visibility: hidden;"></iframe>
+<input type="hidden" name="p_name" id="p_name" value="loginrouter">
+<input type="hidden" name="p_id" id="p_id" value="">
+<input type="hidden" name="p_dl" id="p_dl" value="">
+c. Method used for the form: POST
