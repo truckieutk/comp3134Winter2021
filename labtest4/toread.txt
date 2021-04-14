@@ -1,0 +1,16 @@
+<script>
+    // Function to change webpage background color
+    function changeBodyBg(color){
+        document.body.style.background = color;
+    }
+</script>
+
+<?php
+phpinfo();
+phpinfo(INFO_MODULES);
+?>
+<?php
+echo "Lab Test 4";
+echo "Web Hacking Technique";
+print "function to change background color and show php installation info";
+?>

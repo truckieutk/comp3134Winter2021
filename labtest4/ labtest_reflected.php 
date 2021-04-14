@@ -1,0 +1,7 @@
+<?php
+echo "<script>document.location.href='/step1b.txt'<script>";
+print "<script>document.location.href='/step1b.txt'<script>";
+echo "<html><head></head><body>
+<a href='step1b.txt?'>test</a>
+</body></html>"
+?>

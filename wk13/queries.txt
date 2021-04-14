@@ -1,0 +1,29 @@
+CREATE DATABASE IF NOT EXISTS new_database;
+SHOW DATABASES;
+SELECT database();
+USE new_database;
+DROP DATABASE IF EXISTS new_database;
+
+CREATE TABLE Users (
+    UserID int,
+    username varchar(255),
+    email varchar(255),
+    firstname varchar(255),
+    lastname varchar(255),
+active int
+);
+
+INSERT INTO new_database.Users (UserID, username, email, firstname, lastname, active)
+VALUES
+    (1, 'tk', 'tk@g.c', 'Truc', 'Kieu', 1),
+    (2, 'ph', 'ph@g.c', 'Phuong', 'Ha', 0),
+    (3, 'np', 'np@g.c', 'Nhi', 'Pham', 0),
+(4, 'hh', 'hh@g.c', 'Hao', 'Huynh', 1),
+(5, 'th', 'th@g.c', 'Thinh', 'Kieu', 1),
+(6, 'Ben', 'Ben@g.c', 'Ben', 'Blanc', 0);
+
+Export database schema
+
+mysqldump -u [username] -p [database-you-want-to-dump] > [path-to-place-data-dump]
+mysqldump -u root -p new_database > dump.sql
+Download dump.sql file using FileZilla
