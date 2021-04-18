@@ -1,0 +1,19 @@
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+$path=isset($_GET['q']) ? $_GET['q'] : '.';
+$file = basename(realpath($_GET['file']));
+include($file);
+if(empty($_GET[‘file’]))
+die(‘You didn’t enter the name of the file.’);
+
+$file = getcwd().’/’.$_GET[‘file’];
+if(!file_exists($file))
+die(‘The filename doesn’t exist.’);
+
+readfile($file);
+print "<pre>";
+print_r(scandir($path));
+print "</pre>";
+?>
